@@ -1,0 +1,78 @@
+.seccion-empleados{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.seccion-opciones{
+    border: 1px solid #000;
+    width: 20%;
+}
+.titulo-opciones{
+    border-bottom: 1px solid #000;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+}
+.botones-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85%;
+}
+.btn-opcion{
+    width: 93%;
+    height: 65px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #22577A;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #103955;
+}
+.btn-opcion:hover{
+    background-color: #306d96;
+}
+.btn-buscar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+#buscar{
+    height: 30px;
+    width: 70%;
+    padding-left: 8px;
+}
+.btn-icons{
+    border: 1px solid rgb(109, 109, 109);
+    padding: 5px 9px;
+}
+.empleados-container{
+    border: 2px solid #000;
+    width: 98%;
+    height: 449px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+.empleado-info{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+.empleado-info:hover{
+    background-color: rgb(221, 221, 221);
+}
+.fa-image{
+    font-size: 60px;
+    margin: 10px 30px;
+}
+p{
+    font-size: 18px;
+}
+.empleados{
+    background-color:rgb(219, 219, 219);
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="../css/panel-general.css">
+    <link rel="stylesheet" href="../css/reportes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <a href="./empleados.html">
+            <img src="../imagenes/logo v2.png" alt="LOGO" class="logo">
+        </a>
+        <article class="separacion"></article>
+        <article class="nombre-usuario">
+            <i class="fas fa-user-circle btn-icon"></i>
+            <h3>
+                Administrador
+            </h3>
+        </article>
+        <article class="btn-salir">
+            <a href="../home.html">
+                <i class="fas fa-sign-out-alt btn-icon"></i>
+            </a>
+        </article>
+    </header>
+    <main class="main">
+        <ul class="btn-opciones">
+            <li>
+                <a href="../parte privada/registrar-usuario.html" class="btn-container registrar-usuario">
+                    <i class="fas fa-user-plus btn-icon"></i>
+                    <h3 class="btn-texto">
+                        Registrar usuario
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/formularios.html" class="btn-container formularios">
+                    <i class="fas fa-tasks btn-icon"></i>
+                    <h3  class="btn-texto">
+                        Formularios
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/solicitudes-para-vacantes.html" class="btn-container solicitud-de-vacantes">
+                    <i class="fas fa-clipboard-check btn-icon"></i>
+                    <h3 class="btn-texto">
+                        Solicitud de vacantes
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/empleados.html" class="btn-container empleados ">
+                    <i class="fas fa-address-card btn-icon"></i>
+                    <h3 class="btn-texto">
+                        Empleados
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/capacitaciones.html" class="btn-container capacitaciones">
+                    <i class="fas fa-video btn-icon"></i>
+                    <h3  class="btn-texto">
+                        Capacitaciones
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/reportes.html" class="btn-container reportes">
+                    <i class="fas fa-chart-line btn-icon"></i>
+                    <h3 class="btn-texto">
+                        Reportes
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="../parte privada/configuraciones.html" class="btn-container configuraciones">
+                    <i class="fas fa-cogs btn-icon"></i>
+                    <h3 class="btn-texto">
+                        Configuraciones
+                    </h3>
+                </a>
+            </li>
+        </ul>
+        <section class="seccion-reportes">
+            <!-- El resto del código aquí -->
+            <h1 class="titulo-pagina">
+                Generar reporte
+            </h1>
+            <label for="" class="label-empleado">
+                <h3 class="lbl-text">
+                    ID empleado:
+                </h3>
+                <input type="text">
+            </label>
+            <article class="articulo-container">
+                <article class="articulo-1" >
+                    <form action="" class="form">
+                        <h3>
+                            Atrasos
+                        </h3>
+                        <label class="botoncito">
+                            <input type="checkbox">
+                            <span class="deslizadora"></span>
+                        </label>
+                    </form>
+                    <form action="" class="form">
+                        <h3>
+                            Días libres
+                        </h3>
+                        <label class="botoncito">
+                            <input type="checkbox">
+                            <span class="deslizadora"></span>
+                        </label>
+                    </form>
+                    <form action="" class="form">
+                        <h3>
+                            General
+                        </h3>
+                        <label class="botoncito">
+                            <input type="checkbox">
+                            <span class="deslizadora"></span>
+                        </label>
+                    </form>
+                </article>
+                <article class="articulo-2" >
+                    <form action="" class="form">
+                        <h3>
+                            Faltas
+                        </h3>
+                        <label class="botoncito">
+                            <input type="checkbox">
+                            <span class="deslizadora"></span>
+                        </label>
+                    </form>
+                    <form action="" class="form">
+                        <h3>
+                            Horas asistidas
+                        </h3>
+                        <label class="botoncito">
+                            <input type="checkbox">
+                            <span class="deslizadora"></span>
+                        </label>
+                    </form>
+                    <button class="btn-generar" >
+                        Generar
+                </button>
+            </article>
+        </article>
+        </section>
+    </main>
+</body>
+</html>

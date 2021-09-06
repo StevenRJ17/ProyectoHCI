@@ -1,0 +1,49 @@
+.contactanos-container{
+    display: flex;
+    justify-content: center;
+}
+.title-contacto{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: -18px;
+}
+.info-correo{
+    padding: 0 15% 0 0;
+}
+h3{
+    font-weight: normal;
+}
+.form-contactanos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+.lbl-nombre, .lbl-email, .lbl-asunto, .lbl-descripcion{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size:17px;
+    text-align: left;
+}
+#btn-nombre, #btn-email, #btn-asunto, #txt-descripcion{
+    width: 500px;
+    height: 20px;
+    padding-left: 10px;
+}
+#txt-descripcion{
+    height: 75px;
+}
+.btn-enviar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight:bold;
+    background:#57CC99;
+    border:0px;
+    width:90px;
+    height:40px;
+    margin: 0 auto;
+    align-items: center;
+    left: 47%;
+    border-radius: 5px;
+}
+
+ 

@@ -1,0 +1,38 @@
+.btn-procesos-seccion{
+    width: 100%;
+}
+.titulo-config{
+    margin-top: 100px;
+    text-align: center;
+}
+.container-botones{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    
+}
+.btn-opcion{
+    width: 126px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #22577A;
+    border: 2px solid #103955;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    width: 50%;
+    height: 60px;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.btn-opcion:hover{
+    background-color: #306d96;
+}
+.color-opcion{
+    color: white;
+}
+.configuraciones{
+    background-color:rgb(219, 219, 219);
+}

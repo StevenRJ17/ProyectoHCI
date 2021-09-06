@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px; /* 50% del alto*/
+    margin-left: -150px; /* 50% del ancho */
+}
+.form-login{
+    border: 1px solid #000;
+    border-radius: 60px;
+    width: 800px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lbl-usuario, .lbl-contraseña{
+    padding: 30px 0;
+}
+#btn-usuario, #btn-contraseña{
+    height: 25px;
+    width: 280px;
+    padding-left: 5px;
+}
+#btn-usuario{
+    margin-left: 35px;
+}
+#btn-contraseña{
+    margin-left: 15px;
+}
+.fa-user, .fa-key, .fa-exclamation-triangle{
+    padding: 0 5px 0 0;
+}
+.fa-user, .fa-key{
+    font-size: 20px;
+}
+.msg-alerta{
+    margin-top: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.fa-exclamation-triangle{
+    color: goldenrod;
+}
+.home-opciones{
+    display: flex;
+}
+.btn-cancelar, .btn-ingresar{
+    margin: 20px 50px 0px 50px;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+}

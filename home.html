@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <a href="./home.html">
+            <img src="./imagenes/logo v2.png" alt="LOGO" class="logo">
+        </a>
+    </header>
+    <main class="main main-general">
+        <form action="" class="form-login">
+            <label for="usuario" class="lbl-usuario">
+                <i class="fas fa-user"></i>
+                Usuario:
+                <input type="text" name="usuario" id="btn-usuario">
+            </label>
+            <label for="contraseña" class="lbl-contraseña">
+                <i class="fas fa-key"></i>
+                Contraseña:
+                <input type="text" name="contraseña" id="btn-contraseña">
+            </label>
+            <h4 class="msg-alerta">
+                <i class="fas fa-exclamation-triangle"></i>
+                Por favor, ingrese su usuario y contraseña
+            </h4>
+        </form>
+        <article class="home-opciones">
+            <button class="btn-cancelar">
+                <i class="fas fa-ban"></i>
+                Cancelar
+            </button>
+            <button class="btn-ingresar"  onclick="window.location.href='./parte privada/empleados.html'">
+                <i class="fas fa-sign-out-alt"></i>
+                Ingresar
+            </button>
+        </article>
+    </main>
+</body>
+<footer class="footer">
+    <a href="./parte publica/terminos-y-condiciones.html" class="link">
+        <i class="fas fa-file-alt"></i>
+        Términos y condiciones
+    </a>
+    <a href="./parte publica/contactanos.html" class="link">
+        <i class="fas fa-address-book"></i>
+        Contáctanos
+    </a>
+    <a href="./parte publica/sobre-nosotros.html" class="link">
+        <i class="fas fa-users"></i>
+        sobre nosotros
+    </a>
+    <a href="./parte publica/ayuda.html" class="link">
+        <i class="fas fa-question-circle"></i>
+        Ayuda
+    </a>
+</footer>
+</html>

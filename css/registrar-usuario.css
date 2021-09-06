@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 33px;  
+}
+.btn-procesos{
+    width: 100%; /*Here*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms-container{
+    border: 1px solid #000;
+    border-radius: 45px;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+.form-registro{
+    margin-top: 6.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lbl-form{
+    display: flex;
+    padding: 10px;
+}
+.h3-usuario{
+    margin-right: 35px;
+    margin-left: 13px;
+}
+.h3-contraseña{
+    margin-right: 20px;
+}
+.form-permisos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-checks{
+    display: flex;
+    flex-direction: column;
+}
+.h4-permisos{
+    margin: 10px 0;
+    margin-left: -190px;
+}
+.texto-check{
+    font-weight: normal;
+    margin-left: 5px;
+}
+#cbox1, #cbox2{
+    margin: 10px 0;
+}
+.btn-crear-cuenta{
+    width: 150px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #22577A;
+    border: 2px solid #103955;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+.btn-crear-cuenta:hover{
+    background-color: #306d96;
+}
+#usuario, #contraseña{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.registrar-usuario{
+    background-color:rgb(219, 219, 219);
+}
