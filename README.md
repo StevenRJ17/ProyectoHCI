@@ -1,2 +1,0 @@
-# ProyectoHCI
-Proyecto Final HCI
